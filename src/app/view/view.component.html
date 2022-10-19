@@ -1,0 +1,35 @@
+
+<div class="container mt-3">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+         
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">id</th>
+                        <th scope="col">Food Name</th>
+                        <th scope="col">Item Type</th>
+                        <th scope="col">Item Make</th>
+                        <th scope="col">Quality</th>
+                      
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr *ngFor = "let i of viewData" >
+                        <td>{{i.id}}</td>
+                        <td>{{i.recipeName}}</td>
+                        <td>{{i.recipeItem}}</td>
+                        <td>{{i.recipeMake}}</td>
+                        <td>{{i.recipeQuality}}</td>
+                        
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+           
+        </div>
+    </div>
+</div>
