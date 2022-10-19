@@ -14,7 +14,7 @@ const appRoutes:Routes=[
     path:"",component:AddComponent
   },
   {
-    path:"/view",component:ViewComponent
+    path:"view",component:ViewComponent
   }
 ]
 @NgModule({
